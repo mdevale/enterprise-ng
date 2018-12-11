@@ -8,7 +8,7 @@ import { SohoDataGridComponent } from 'ids-enterprise-ng';
 
 // tslint:disable
 
-export const mainData: any[] = [
+const mainData: any[] = [
   {
     id: 1,
     productId: 'T100',
@@ -108,7 +108,7 @@ export const mainData: any[] = [
   }
 ];
 
-export const mainColumns: any[] = [
+const mainColumns: any[] = [
   {
     id: 'productId',
     name: 'Product Id',
