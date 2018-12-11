@@ -89,6 +89,7 @@ import { DataGridFixedHeaderDemoComponent } from './datagrid/datagrid-fixedheade
 import { DataGridGroupableDemoComponent } from './datagrid/datagrid-groupable.demo';
 import { DataGridGroupedHeaderDemoComponent } from './datagrid/datagrid-grouped-header.demo';
 import { DataGridMixedSelectionDemoComponent } from './datagrid/datagrid-mixed-selection.demo';
+import { DataGridNestedGridsDemoComponent } from './datagrid/datagrid-nested-grids.demo';
 import { DataGridPagingIndeterminateDemoComponent } from './datagrid/datagrid-paging-indeterminate.demo';
 import { DatagridStandalonePagerDemoComponent } from './datagrid/datagrid-standalone-pager.demo';
 import { DataGridPagingServiceDemoComponent } from './datagrid/datagrid-paging-service.demo';
@@ -265,6 +266,7 @@ import { WizardDemoValidationRulesPageComponent } from './wizard/wizard-validati
     DataGridLookupDialogDemoComponent,
     DataGridLookupClickDemoComponent,
     DataGridMixedSelectionDemoComponent,
+    DataGridNestedGridsDemoComponent,
     DataGridPagingIndeterminateDemoComponent,
     DatagridStandalonePagerDemoComponent,
     DataGridPagingServiceDemoComponent,

@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="twelve columns">
+    <h2 class="fieldset-title">Soho Data Grid - Nested Grids</h2>
+  </div>
+</div>
+
+<br>
+<div class="row top-padding">
+  <div class="twelve columns demo" role="main">
+    <div soho-datagrid
+      *ngIf="gridOptions" [gridOptions]="gridOptions"
+      (expandrow)="onExpandrow($event)"
+      (collapserow)="onCollapserow($event)"
+    ></div>
+  </div>
+</div>

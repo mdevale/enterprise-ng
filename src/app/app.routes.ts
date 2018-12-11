@@ -46,6 +46,7 @@ import { DataGridLookupClickDemoComponent } from './datagrid/datagrid-lookup-cli
 import { DataGridLookupDialogDemoComponent } from './datagrid/datagrid-lookup-dialog.demo';
 
 import { DataGridRowReorderDemoComponent } from './datagrid/datagrid-rowreorder.demo';
+import { DataGridNestedGridsDemoComponent } from './datagrid/datagrid-nested-grids.demo';
 import { DataGridDynamicDemoComponent } from './datagrid/datagrid-dynamic.demo';
 import { DataGridEditorsDemoComponent } from './datagrid/datagrid-editors.demo';
 import { DataGridExportWithoutDataGridDemoComponent } from './datagrid/datagrid-export-without-datagrid.demo';
@@ -221,6 +222,7 @@ export const routes: Routes = [
   { path: 'datagrid-lookup-click-function',         component: DataGridLookupClickDemoComponent },
   { path: 'datagrid-lookup-dialog',                 component: DataGridLookupDialogDemoComponent },
   { path: 'datagrid-rowreorder',                    component: DataGridRowReorderDemoComponent },
+  { path: 'datagrid-nested-grids',                    component: DataGridNestedGridsDemoComponent },
   { path: 'datagrid-standard-formatter',            component: DataGridStandardFormatterDemoComponent },
   { path: 'datepicker',                             component: DatepickerDemoComponent },
   { path: 'donut',                                  component: DonutDemoComponent },
