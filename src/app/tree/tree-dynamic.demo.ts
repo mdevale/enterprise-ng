@@ -75,9 +75,21 @@ export class TreeDynamicDemoComponent implements AfterViewInit {
     return this.source;
   }
 
+  treeOptions: SohoTreeOptions = {    
+    hideCheckboxes: true,
+    selectable: 'multiple'
+  };
+
+  ngOnInit() {
+    this.tree.options = this.treeOptions;
+  }
+
   constructor(private el: ElementRef) {}
 
   expandAll() {
+    console.log('Dataset from tree:');
+    console.log(this.tree.dataset);
+    console.log(this.tree.options.dataset);
     this.tree.expandAll();
   }
 
