@@ -193,6 +193,7 @@ import { TooltipDemoComponent } from './tooltip/tooltip.demo';
 import { TrackDirtyDemoComponent } from './trackdirty/trackdirty.demo';
 import { TreeContentDemoComponent } from './tree/tree-content.demo';
 import { TreeDynamicDemoComponent } from './tree/tree-dynamic.demo';
+import { TreeChildrenDemoComponent } from './tree/tree-children.demo';
 import { TreemapDemoComponent } from './treemap/treemap.demo';
 import { TreeServiceDemoComponent } from './tree/tree-service.demo';
 import { TreeSourceDemoComponent } from './tree/tree-source.demo';
@@ -374,6 +375,7 @@ import { LocaleInitializerModule } from './locale-initializer/locale-initializer
     TrackDirtyDemoComponent,
     TreeContentDemoComponent,
     TreeDynamicDemoComponent,
+    TreeChildrenDemoComponent,
     TreemapDemoComponent,
     TreeServiceDemoComponent,
     TreeSourceDemoComponent,

@@ -149,6 +149,7 @@ import { TooltipDemoComponent } from './tooltip/tooltip.demo';
 import { TrackDirtyDemoComponent } from './trackdirty/trackdirty.demo';
 import { TreeContentDemoComponent } from './tree/tree-content.demo';
 import { TreeDynamicDemoComponent } from './tree/tree-dynamic.demo';
+import { TreeChildrenDemoComponent } from './tree/tree-children.demo';
 import { TreemapDemoComponent } from './treemap/treemap.demo';
 import { TreeServiceDemoComponent } from './tree/tree-service.demo';
 import { TreeSourceDemoComponent } from './tree/tree-source.demo';
@@ -315,6 +316,7 @@ export const routes: Routes = [
   { path: 'trackdirty',                             component: TrackDirtyDemoComponent },
   { path: 'tree-content',                           component: TreeContentDemoComponent },
   { path: 'tree-dynamic',                           component: TreeDynamicDemoComponent },
+  { path: 'tree-children',                          component: TreeChildrenDemoComponent },  
   { path: 'treemap',                                component: TreemapDemoComponent },
   { path: 'tree-service',                           component: TreeServiceDemoComponent },
   { path: 'tree-source',                            component: TreeSourceDemoComponent },
